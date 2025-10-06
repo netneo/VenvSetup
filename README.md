@@ -97,15 +97,18 @@ PYTHON_CMD=python3.12 ./run.sh
 
 
 Q: Watch mode says inotifywait not found.
+
 A: Install the required package:
 
 sudo apt install inotify-tools
 
 
 Q: Pip install fails due to system restrictions on Ubuntu.
+
 A: The script uses a local virtual environment (.venv) to avoid system directories. Check logs/setup.log for detailed errors.
 
 Q: I changed requirements.txt but dependencies aren’t updating.
+
 A: The script tracks changes using a hash file. Ensure the .requirements.hash file exists or run:
 
 ./run.sh rebuild
@@ -114,4 +117,5 @@ A: The script tracks changes using a hash file. Ensure the .requirements.hash fi
 to force a clean update.
 
 Q: How can I debug installation issues?
+
 A: All pip logs are in logs/setup.log. Review this file to see exactly what failed.
