@@ -5,6 +5,7 @@ Get your project running in three simple commands:
 
 # 1️⃣ Clone or download the project to your folder
 git clone https://github.com/netneo/VenvSetup.git
+
 cd VenvSetup
 
 # 2️⃣ Install inotify-tools (for watch mode, optional)
