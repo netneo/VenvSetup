@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-#!/usr/bin/env bash
 # run.sh — automatic environment setup + run script
 # Features: rebuild, logging, Python version check, auto dependency sync, watch mode
+# By NetNeo
+# https://github.com/netneo/VenvSetup
 # ----------------------------------------------------------------------
 
 set -e
