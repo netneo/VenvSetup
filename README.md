@@ -18,6 +18,7 @@ sudo apt install inotify-tools
 Optional: To rebuild the virtual environment or enable watch mode:
 
 ./run.sh rebuild
+
 ./run.sh watch
 
 📌 Project Overview
